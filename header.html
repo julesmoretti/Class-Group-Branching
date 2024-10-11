@@ -1,71 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" type="text/css" href="header.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Header Example</title>
-    <style>
-      /* Basic styles for the header */
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-      }
-
-      .header {
-        background-color: #333;
-        padding: 10px 20px;
-        color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .header h1 {
-        margin: 0;
-        color: orange; /* Updated title color */
-      }
-
-      .nav-menu {
-        list-style-type: none;
-        display: flex;
-        margin: 0;
-      }
-
-      .nav-menu li {
-        margin-left: 20px;
-      }
-
-      .nav-menu a {
-        color: white;
-        text-decoration: none;
-      }
-
-      .toggle-menu {
-        display: none;
-        font-size: 24px;
-        cursor: pointer;
-      }
-
-      @media (max-width: 768px) {
-        .nav-menu {
-          display: none;
-          flex-direction: column;
-          position: absolute;
-          top: 50px;
-          right: 20px;
-          background-color: #333;
-          padding: 10px;
-        }
-
-        .toggle-menu {
-          display: block;
-        }
-
-        .nav-menu.show {
-          display: flex;
-        }
-      }
-    </style>
   </head>
   <body>
     <header class="header">
