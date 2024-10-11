@@ -58,3 +58,13 @@ body {
     display: flex;
   }
 }
+
+.sidebar {
+  width: 20%;
+  min-height: 500px;
+  background-color: #8086f2;
+  color: #f2f2dc;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+}
