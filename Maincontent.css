@@ -1,50 +1,49 @@
-p {
-    padding: 20px;
-}
-
-/* ID uses a "#" */
-
 #main-content {
-    background-color: #f0f0f0;
-    color: black;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 140px);
     display: flex;
 }
 
-/* class uses a dot "." */
-
-h2 {
-    padding: 20px;
-    margin: 0;
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px; /* 按钮之间的间距 */
+    padding: 0 20px; /* 给容器设置左右20px的内边距 */
 }
 
-.sidebar {
-    width: 200px;
-    height: 100%;
-    background-color: #81bffa;
+/* 使所有按钮的宽度一致，包含 Clear History 按钮 */
+.flex-container button {
+    flex: 1; /* 使按钮占据相等的宽度 */
+    padding: 10px 20px;
+    background-color: #999999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /*    cursor: pointer;*/
+    text-align: center;
+}
+
+.flex-container button:hover {
+    background-color: #45a049;
+}
+
+/* Clear History & Results Button with Red Background */
+#clearButton {
+    background-color: #ff6347; /* 红色背景 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for the Clear History & Results Button */
+#clearButton:hover {
+    background-color: #ff4500; /* 更深的红色，悬停时显示 */
 }
 
 .content {
     flex: 1;
-}
-
-button {
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    flex: 1;
-}
-
-#clearAll {
-    background-color: #fa3709;
-    color: white;
-    border: none;
-    cursor: pointer; /* Makes the button look clickable */
-}
-#clearAll:hover {
-    background-color: darkred; /* Optional: Darkens the color on hover */
-}
-
-body {
-    margin: 0;
+    background-color: #e6e6e6;
+    /*    padding: 10px 20px;*/
 }
