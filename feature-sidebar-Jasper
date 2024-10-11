@@ -6,6 +6,7 @@
   <title></title>
 </head>
 <body>
+  
   <div class="sidebar">
       <h3>Number count</h3>
       <h4>RESULT</h4>
@@ -20,7 +21,3 @@
 
 </body>
 </html>
-
-
-
-
