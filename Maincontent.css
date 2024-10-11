@@ -1,9 +1,7 @@
-
-#main-content{
+#main-content {
     height: calc(100vh - 140px);
     display: flex;
 }
-
 
 .flex-container {
     display: flex;
@@ -23,36 +21,29 @@
     color: white;
     border: none;
     border-radius: 5px;
-/*    cursor: pointer;*/
+    /*    cursor: pointer;*/
     text-align: center;
 }
 
-/* 悬停时的颜色变化 */
 .flex-container button:hover {
     background-color: #45a049;
 }
 
-
 /* Clear History & Results Button with Red Background */
 #clearButton {
-    background-color: #FF6347; /* 红色背景 */
+    background-color: #ff6347; /* 红色背景 */
     color: white;
     border: none;
     border-radius: 5px;
- /*   cursor: pointer;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px; /* 上方的间距，确保与上方按钮分开 */*/
 }
 
 /* Hover effect for the Clear History & Results Button */
 #clearButton:hover {
-    background-color: #FF4500; /* 更深的红色，悬停时显示 */
+    background-color: #ff4500; /* 更深的红色，悬停时显示 */
 }
 
-
-.content{
-	flex:1 ;
-	background-color: #E6E6E6;
-/*    padding: 10px 20px;*/
+.content {
+    flex: 1;
+    background-color: #e6e6e6;
+    /*    padding: 10px 20px;*/
 }
